@@ -242,7 +242,7 @@ STAR_PREMIUM_PLANS = {
 # 9. SERVER, STREAMING & WEB SETTINGS
 # ==============================================================================
 # Streaming Mode (Keep False on Render free tier to conserve bandwidth)
-STREAM_MODE = is_enabled(environ.get('STREAM_MODE', "False"), False)
+STREAM_MODE = is_enabled(environ.get('STREAM_MODE', "True"), False)
 PREMIUM_STREAM_MODE = is_enabled(environ.get('PREMIUM_STREAM_MODE', "False"), False)
 
 # Server Binding & Host Configuration
