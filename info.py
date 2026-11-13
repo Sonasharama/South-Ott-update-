@@ -28,11 +28,11 @@ def is_enabled(value, default: bool = False) -> bool:
 # 1. BOT CREDENTIALS & SESSION
 # ==============================================================================
 # Telegram API credentials from https://my.telegram.org
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '21226276'))
+API_HASH = environ.get('API_HASH', '1923083447f57d3ee5f71ce17a8db397')
 
 # Bot token obtained from @BotFather
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8286004722:AAEIXsBX8ME_kKhKB610INuzSeU3dCQ5CrM')
 
 # Pyrogram session name
 SESSION = environ.get('SESSION', 'dreamxbotz_search')
